@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aziendaagricolaneri.github.io/page/sitemap.xml 

@@ -1,0 +1,40 @@
+.storia-section {
+  padding-top: 96px;
+  padding: 20px 0;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 48px 0;
+  }
+
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &__content {
+    max-width: 710px;
+  }
+
+  &__advantages {
+    font-size: 16px;
+    text-align: justify;
+    color: var(--color-brand);
+    font-weight: 600;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 24px;
+    }
+  }
+
+  &__photo {
+    display: none;
+    width: 350px;
+    height: 350px;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: block;
+    }
+  }
+}

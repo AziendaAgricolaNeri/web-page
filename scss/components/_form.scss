@@ -1,0 +1,9 @@
+.form-field {
+  margin-top: 20px;
+  margin-bottom: 32px;
+
+  @media screen and (min-width: $bp-tablet) {
+    margin-top: 60px;
+    margin-bottom: 32px;
+  }
+}
