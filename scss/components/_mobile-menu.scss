@@ -1,0 +1,62 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primary-light);
+  z-index: 1000;
+  transform: translateX(100%);
+  transition: transform 0.3s;
+
+  &.is-open {
+    transform: translateX(0);
+  }
+
+  &__list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  &__menu,
+  &__item {
+    margin: 10px 0;
+  }
+
+  &__menu,
+  &__item,
+  &__link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  &__menu,
+  &__item,
+  &__link:hover {
+    background-color: white;
+  }
+
+  &__menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin: 10px 0;
+  }
+
+  &__btn-close {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    background-color: transparent;
+    border: none;
+    fill: black;
+  }
+}
