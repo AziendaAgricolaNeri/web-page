@@ -1,20 +1,17 @@
-const mobileMenu = document.querySelector('.js-menu-container');
-const openMenuBtn = document.querySelector('.js-open-menu');
-const closeMenuBtn = document.querySelector('.js-close-menu');
+//const mobileMenu = document.querySelector('.mobile-menu');
+const menuBtnOpen = document.querySelector('.menu-btn-open');
+const menuBtnClose = document.querySelector('.menu-btn-close');
+const menuLinks = document.querySelectorAll('.mobile-menu_link');
 
-const toggleMenu = () => {
-  const isMenuOpen =
-    openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
-  openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
-  mobileMenu.classList.toggle('is-open');
-};
+const toggleMenu = () => mobileMenu.classList.toggle('is-open');
 
-openMenuBtn.addEventListener('click', toggleMenu);
-closeMenuBtn.addEventListener('click', toggleMenu);
+// Відкриття/закриття меню
+menuBtnOpen.addEventListener('click', toggleMenu);
+menuBtnClose.addEventListener('click', toggleMenu);
 
-// Закриваємо меню, якщо екран стає широким
-window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
-  if (!e.matches) return;
-  mobileMenu.classList.remove('is-open');
-  openMenuBtn.setAttribute('aria-expanded', false);
-});
+// Закриття меню при натисканні на посилання
+menuLinks.forEach(link => {
+  link.addEventListener('click', event => {
+    mobileMenu.classList.remove('is-open'); // Закриває меню
+  });
+}); //
