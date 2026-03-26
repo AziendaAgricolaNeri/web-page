@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-display: swap;
     font-family: 'Poppins';
@@ -24,4 +25,32 @@
     font-family: 'Poppins';
     font-weight: 900;
     src: url('../fonts/poppins-v22-latin-900.woff2') format('woff2');
+=======
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 300;
+    src: url('../fonts/poppins-v22-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('../fonts/poppins-v22-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 600;
+    src: url('../fonts/poppins-v22-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 900;
+    src: url('../fonts/poppins-v22-latin-900.woff2') format('woff2');
+>>>>>>> 37c3a73d1697ffdcb84b31076eaa0caf98170ba1
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Text sise */
 @import './utils/fonts';
 
@@ -49,3 +50,56 @@
 /*Footer*/
 @import './components/footer';
 @import './components/address';
+=======
+/* Text sise */
+@import './utils/fonts';
+
+/* Text colors */
+@import './utils/variables';
+@import './utils/texts';
+
+/* Base stiles */
+@import './base';
+
+/* Styles deled name paragraf */
+@import './utils/utils';
+
+/* Modal */
+@import './utils/modal';
+
+/* Container */
+@import './components/container';
+
+/* Button */
+@import './components/buttons';
+@import './components/mobile-menu';
+
+/* Header */
+@import './components/header';
+
+/* hero-section */
+@import './components/hero-section';
+
+/* Storia aziendale */
+@import './components/history-compani';
+
+/* Link */
+@import './components/links';
+
+/* Product-title */
+@import './components/format-card';
+
+/* format-section, Product nome */
+@import './components/formats-product';
+
+/* Card nome */
+@import './components/section';
+
+/*For-workers*/
+@import './components/workers';
+@import './components/form';
+
+/*Footer*/
+@import './components/footer';
+@import './components/address';
+>>>>>>> 37c3a73d1697ffdcb84b31076eaa0caf98170ba1

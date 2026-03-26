@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* link */
 
 .link {
@@ -9,3 +10,16 @@
     color: var(--color-brand);
   }
 }
+=======
+/* link */
+
+.link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  transition: color 0.3s;
+
+  &:hover {
+    color: var(--color-brand);
+  }
+}
+>>>>>>> 37c3a73d1697ffdcb84b31076eaa0caf98170ba1

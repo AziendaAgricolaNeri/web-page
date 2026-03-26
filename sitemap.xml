@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -10,13 +11,35 @@
 <url>
   <loc>http://nericristian.myvnc.com/</loc>
   <lastmod>2025-04-01T16:09</lastmod>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://nericristian.myvnc.com/</loc>
+  <lastmod>2025-04-01T16:09:33+00:00</lastmod>
+>>>>>>> 37c3a73d1697ffdcb84b31076eaa0caf98170ba1
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://nericristian.myvnc.com/KHgKKjl_popupgoogle.html</loc>
+<<<<<<< HEAD
   <lastmod>2021-03-22T19:27</lastmod>
   <priority>0.80</priority>
 </url>
 
 
+=======
+  <lastmod>2021-03-22T19:27:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+>>>>>>> 37c3a73d1697ffdcb84b31076eaa0caf98170ba1
 </urlset>

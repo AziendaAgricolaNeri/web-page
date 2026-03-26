@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 User-agent: *
 Allow: /
 Sitemap: https://aziendaagricolaneri.github.io/web-page/sitemap.xml 
+=======
+User-agent: *
+Allow: /
+Sitemap: https://aziendaagricolaneri.github.io/web-page/sitemap.xml 
+>>>>>>> 37c3a73d1697ffdcb84b31076eaa0caf98170ba1

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .form-field {
   margin-top: 20px;
   margin-bottom: 32px;
@@ -7,3 +8,14 @@
     margin-bottom: 32px;
   }
 }
+=======
+.form-field {
+  margin-top: 20px;
+  margin-bottom: 32px;
+
+  @media screen and (min-width: $bp-tablet) {
+    margin-top: 60px;
+    margin-bottom: 32px;
+  }
+}
+>>>>>>> 37c3a73d1697ffdcb84b31076eaa0caf98170ba1
