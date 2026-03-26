@@ -453,8 +453,7 @@ ul {
   justify-content: flex-end;
   height: 444px;
   padding: 24px;
-  background-image: -webkit-gradient(
-    linear,
+  background-image: linear-gradient(
     left top,
     left bottom,
     color-stop(55.21%, rgba(49, 38, 26, 0)),
