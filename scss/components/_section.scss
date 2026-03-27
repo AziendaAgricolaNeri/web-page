@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .section-title {
   color: var(--color-primary-dark);
   font-size: 24px;
@@ -14,20 +13,3 @@
     text-align: center;
   }
 }
-=======
-.section-title {
-  color: var(--color-primary-dark);
-  font-size: 24px;
-  font-weight: 900;
-  line-height: 1.5;
-
-  @media screen and (min-width: $bp-tablet) {
-    font-size: 32px;
-    line-height: 1.3;
-  }
-
-  &--centered {
-    text-align: center;
-  }
-}
->>>>>>> 37c3a73d1697ffdcb84b31076eaa0caf98170ba1
